@@ -45,8 +45,8 @@ git config --global credential.UseHttpPath true
 cd /tmp
 git clone --mirror $DIST_REPO github-dist
 cd github-dist
-git push https://git-codecommit.$MY_REGION.amazonaws.com/v1/repos/saas-factory-serverless-workshop --all
+git push https://git-codecommit.us-east-1.amazonaws.com/v1/repos/saas-factory-serverless-workshop --all
 cd ..
 rm -rf github-dist
-git clone https://git-codecommit.$MY_REGION.amazonaws.com/v1/repos/saas-factory-serverless-workshop
+git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/saas-factory-serverless-workshop
 cd /tmp/saas-factory-serverless-workshop

@@ -62,7 +62,7 @@ if [ -z "$WORKSHOP_STACK" ] \
 	exit 1
 fi
 
-cd /home/ec2-user/environment/saas-factory-serverless-workshop/resources
+cd /tmp/saas-factory-serverless-workshop/resources
 for LAMBDA in $(ls -d */); do
 	if [ $LAMBDA != "custom-resources/" ]; then
 		cd $LAMBDA
